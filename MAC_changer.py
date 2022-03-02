@@ -34,6 +34,11 @@ def mac_changer(interface,new_mac):
 #    parser = optparse.OptionParser()
 #    parser.add_option('-i', '--interface', dest='interface', help='The interface you want to modify')
 #    parser.add_option('-a', '--address', dest='new_mac', help='The new MAC address ')
+#    (option, arguments) = parser.parse_args()
+#    if not options.interface:
+#        parser.error('Please specifiy an interface, use -h or --help for more details ')
+#    if not options.new_mac:
+#        parser.error('Please specifiy a new MAC address, use -h or --help for more details ')
 #    return parser.parse_args()
 
 #(options, arguments) = get_arguments()
